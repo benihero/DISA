@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <LinearLayout
+
+        android:id="@+id/cardpengalaman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:background="@color/white"
+        android:elevation="8dp"
+        android:orientation="vertical">
+
+
+        <TextView
+
+            android:id="@+id/namauser"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="4dp"
+            android:fontFamily="@font/newlin"
+            android:padding="5dp"
+            android:text="Nama"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@color/GrayPrimary2" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="4dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+
+                android:id="@+id/emailuser"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="4dp"
+                android:padding="5dp"
+                android:text="Email"
+                android:layout_weight="6"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="2"
+
+                android:padding="5dp"
+                android:text="Quiz"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:id="@+id/skorquiz"
+                android:layout_height="40dp"
+                android:layout_weight="2"
+                android:layout_marginEnd="4dp"
+                android:padding="5dp"
+                android:text="skor"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp"
+
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@color/GrayPrimary2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:text="NIM: "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+
+                />
+
+            <TextView
+
+                android:id="@+id/nimuser"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center_vertical"
+                android:text=" Anonym"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+
+                />
+
+
+            <Button
+                android:id="@+id/delete_user"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/delete" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_height="250dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:src="@drawable/event"
+                android:background="@color/GrayPrimary"
+                android:layout_height="65dp"/>
+
+            <TextView
+                android:id="@+id/temapelatihan"
+                android:textColor="@color/GrayPrimary2"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:text="Pelatihan Bahasa isyarat"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="130dp"
+            android:background="@color/white"
+            android:layout_height="184dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="8dp"
+                android:fontFamily="@font/newlin"
+                android:textStyle="bold"
+                android:text="Tutor :"
+                android:layout_height="40dp"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="8dp"
+                android:fontFamily="@font/newlin"
+                android:textStyle="bold"
+                android:text="Tempat :"
+                android:layout_height="40dp"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="8dp"
+                android:fontFamily="@font/newlin"
+                android:textStyle="bold"
+                android:text="Waktu :"
+                android:layout_height="40dp"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="8dp"
+                android:fontFamily="@font/newlin"
+                android:textStyle="bold"
+                android:text="Tanggal :"
+                android:layout_height="40dp"/>
+
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="200dp"
+                android:layout_height="184dp">
+
+                <TextView
+
+                    android:id="@+id/namatutor"
+                    android:paddingStart="4dp"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    android:paddingRight="8dp"
+                    android:fontFamily="@font/newlin"
+                    android:textStyle="bold"
+                    android:text="Mr sulis"
+                    android:layout_height="40dp"/>
+
+                <TextView
+
+                    android:id="@+id/tempatpelatihan"
+                    android:paddingStart="4dp"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    android:paddingRight="8dp"
+                    android:fontFamily="@font/newlin"
+                    android:textStyle="bold"
+                    android:text="Gedung PSLD"
+                    android:layout_height="40dp"/>
+                <TextView
+                    android:id="@+id/waktupelatihan"
+                    android:paddingStart="4dp"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/newlin"
+                    android:textStyle="bold"
+                    android:text="08.00"
+                    android:layout_height="40dp"/>
+                <TextView
+                    android:id="@+id/tanggalpelatihan"
+                    android:paddingStart="4dp"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/newlin"
+                    android:textStyle="bold"
+                    android:text="10-04-2020"
+                    android:layout_height="40dp"/>
+                <Button
+                    android:id="@+id/hapusjadwal"
+                    android:background="@drawable/delete"
+                    android:layout_width="25dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/GrayPrimary"
+    android:layout_height="match_parent"
+    tools:context=".penjadwalan.jadwal">
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/bg_viewlogin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Tambah Jadwal"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout7"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:gravity="center"
+        android:background="@drawable/bg_primary_button"
+        android:elevation="6dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2">
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/newlin"
+            android:gravity="center"
+            android:text="Tutor"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/namatutor"
+            android:layout_width="195dp"
+            android:textColorHint="@color/GrayPrimary2"
+            android:paddingStart="10dp"
+            android:hint="nama tutor"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_profile_card"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:text="Tema"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/tema"
+                android:layout_width="195dp"
+                android:textColorHint="@color/GrayPrimary2"
+                android:paddingStart="10dp"
+                android:hint="Tema pelatihan"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_profile_card"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:text="Tempat"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/namatempat"
+                android:layout_width="195dp"
+                android:textColorHint="@color/GrayPrimary2"
+                android:paddingStart="10dp"
+                android:hint="ruangan"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_profile_card"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:text="Tanggal"
+                android:layout_marginRight="6dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/tanggal"
+                android:layout_width="145dp"
+                android:textColorHint="@color/GrayPrimary2"
+                android:paddingStart="10dp"
+                android:hint="tanggal"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_profile_card"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/dateselect"
+                android:layout_width="40dp"
+                android:drawableStart="@drawable/event"
+                android:paddingStart="3dp"
+                android:onClick="dateonClick"
+                android:layout_height="40dp"
+                android:layout_marginLeft="7dp"
+                android:background="@color/hijaumenu"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:text="Waktu"
+                android:layout_marginRight="12dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/waktu"
+                android:layout_width="145dp"
+                android:textColorHint="@color/GrayPrimary2"
+                android:paddingStart="10dp"
+                android:hint="waktu"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_profile_card"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/timeselect"
+                android:layout_width="40dp"
+                android:drawableStart="@drawable/waktu"
+                android:paddingStart="9dp"
+                android:layout_height="40dp"
+                android:onClick="timee"
+                android:layout_marginLeft="8dp"
+                android:background="@color/red"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/simpanjadwal"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_start_button"
+            android:elevation="4dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Save"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

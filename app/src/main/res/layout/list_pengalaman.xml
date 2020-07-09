@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <LinearLayout
+
+        android:id="@+id/cardpengalaman"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:elevation="6dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/bg_list_pengalaman"
+        android:orientation="vertical">
+
+
+
+        <TextView
+
+            android:id="@+id/judull"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            android:layout_marginStart="4dp"
+            android:fontFamily="@font/newlin"
+            android:text="Judul"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@color/GrayPrimary2" />
+
+        <TextView
+
+            android:id="@+id/isii"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:text="isi"
+            android:padding="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@color/GrayPrimary2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:text="Ditulis oleh : "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+
+                />
+
+            <TextView
+
+                android:id="@+id/write"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/newlin"
+                android:text=" Anonym"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+
+                />
+            <Button
+                android:id="@+id/verifikasi_exp"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/verify"/>
+
+            <Button
+                android:id="@+id/delete_exp"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/delete"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

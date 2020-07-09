@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.disa">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".video.daksavideo"></activity>
+        <activity android:name=".video.autisvideo" />
+        <activity android:name=".video.netravideo" />
+        <activity android:name=".video.tulivideo" />
+        <activity android:name=".soal.soaltuli.soaltulidisplay" />
+        <activity android:name=".soal.soalnetra.soalnetradisplay" />
+        <activity android:name=".soal.soaldaksa.soaldaksadisplay" />
+        <activity android:name=".soal.soalautis.soalautisdisplay" />
+        <activity android:name=".soal.halamanutamasoal" />
+        <activity android:name=".materi.tuli.materitlenam" />
+        <activity android:name=".materi.tuli.materitllima" />
+        <activity android:name=".materi.tuli.materitlempat" />
+        <activity android:name=".materi.tuli.materitltiga" />
+        <activity android:name=".materi.tuli.materitldua" />
+        <activity android:name=".materi.tuli.materitlsatu" />
+        <activity android:name=".materi.autisme.materiatenam" />
+        <activity android:name=".materi.autisme.materiatlima" />
+        <activity android:name=".materi.autisme.materiatempat" />
+        <activity android:name=".materi.autisme.materiattiga" />
+        <activity android:name=".materi.autisme.materiatdua" />
+        <activity android:name=".materi.autisme.materiatsatu" />
+        <activity android:name=".materi.tunadaksa.materitnenam" />
+        <activity android:name=".materi.tunadaksa.materitnlima" />
+        <activity android:name=".materi.tunadaksa.materitnempat" />
+        <activity android:name=".materi.tunadaksa.materitntiga" />
+        <activity android:name=".materi.tunadaksa.materitndua" />
+        <activity android:name=".materi.tunadaksa.materitnsatu" />
+        <activity android:name=".lupaPassword.lupapassword" />
+        <activity android:name=".tambahanmateri.listmateritambahan" />
+        <activity android:name=".tambahanmateri.DetailMateri" />
+        <activity android:name=".tambahanmateri.tambahanmateri" />
+        <activity android:name=".materi.tunanetra.materienam" />
+        <activity android:name=".materi.tunanetra.materilima" />
+        <activity android:name=".materi.tunanetra.materiempat" />
+        <activity android:name=".materi.tunanetra.materitiga" />
+        <activity android:name=".materi.tunanetra.materidua" />
+        <activity
+            android:name=".materi.tunanetra.materisatu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".penjadwalan.lihat_jadwal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".penjadwalan.jadwal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.halamanuser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".soal.skorDisplay"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".soal.add_soal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pengalaman.DetailPengalaman"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pengalaman.add_pengalaman"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".video.PlayVideo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".edit_profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".succes_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".video.Lihat_Video"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".soal.quiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pengalaman.Pengalaman"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".materi.ListMateri"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".loginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Registerpage2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Registerpage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Startexplore"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FlashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_list_pengalaman"
+        android:elevation="7dp"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/soalmateri"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:text="Kapan PSLD Universitas Brawijaya berdiri ?"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+
+            android:id="@+id/rdgroub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/opsia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:outlineAmbientShadowColor="@color/colorPrimaryDark"
+            android:text="6 maret 2012"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <RadioButton
+            android:id="@+id/opsib"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:outlineAmbientShadowColor="@color/colorPrimaryDark"
+            android:text="7 april 2013"
+            android:textColor="@color/colorPrimaryDark" />
+        <RadioButton
+            android:id="@+id/opsic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:outlineAmbientShadowColor="@color/colorPrimaryDark"
+            android:text="10 agustus 2014"
+            android:textColor="@color/colorPrimaryDark" />
+        <RadioButton
+            android:id="@+id/opsid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:outlineAmbientShadowColor="@color/colorPrimaryDark"
+            android:text="7 juni 2012"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/colorPrimaryDark" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/hapussoal"
+            android:layout_width="60dp"
+            android:text="hapus"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right"
+            android:background="@color/red"
+            android:textSize="10dp"
+            android:layout_height="35dp"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

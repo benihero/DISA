@@ -1,0 +1,345 @@
+<resources>
+    <string name="app_name">DISA</string>
+    <string name="pengertiantunanetra">Pengertian Tuna Netra</string>
+    <string name="ParagrafsatuTN">   Tunanetra berasal dari kata tuna yang berarti rusak atau rugi dan netra yang berarti mata. Jadi tunanetra yaitu individu yang mengalami kerusakan atau hambatan pada organ mata. Dari sudut pandang medis seseorang dikatakan megalami tunanetra apabila “memiliki visus dua puluh per dua ratus atau kurang dan memiliki lantang pandangan kurang dari dua puluh derajat.”
+Dengan demikian dapat dipahami bahwa tunanetra yaitu berkurangnya fungsi atau ketidakfungsian indra penglihatan seseorang untuk melihat bayangan benda dalam aktivitas sehari-hari sehingga membutuhkan pendidikan khusus guna mendukung aktivitas belajarnya.
+berikut jenis-jenis kebutaan.</string>
+
+    <string name="butatotal">Buta total yaitu kondisi penglihatan yang tidak dapat melihat dua jari di mukanya atau hanya melihat sinar atau cahaya. Mereka tidak bisa menggunakan huruf selain huruf braille. Ciri-ciri buta total diantaranya secara fisik mata terlihat juling, sering berkedip,menyipitkan mata, kelopak mata merah, mata infeksi, gerakan mata tak beraturan dan cepat, mata selalu berair dan pembengkakan pada kulit tempat tumbuh bulu mata. Secara perilaku menggosok mata secara berlebihan, menutup atau melindungi mata sebelah, memiringkan kepala, atau mencondongkan kepala ke depan, sukar membaca atau mengerjakan tugas yang memerlukan penggunaan mata, berkedip lebih banyak, membawa buku ke dekat mata, tidak dapat melihat benda yang agak jauh, menyipitkan mata atau mengerutkan dahi </string>
+    <string name="lowvisi">Low fision yaitu kondisi penglihatan yang apabila melihat sesuatu maka harus didekatkan atau mata harus dijauhkan dari objek yang dilihatnya atau memiliki pemandangan kabur ketika melihat objek. Ciri-ciri low fision diantaranya menulis dan membaca dengan jarak yang sangat dekat, hanya dapat membaca huruf yang berukuran besar, mata tampak terlihat putih di tengah mata atau kornea (bagian bening di depan mata) terlihat berkabut, terlihat tidak menatap lurus ke depan, memincingkan mata atau mengerutkan kening terutama di cahaya terang atau saat melihat sesuatu, lebih sulit melihat pada malam hari, pernah mengalami operasi mata dan atau memakai 12
+kacamata yang sangat tebal tetapi masih tidak dapat melihat dengan jelas
+</string>
+
+    <string name="tunetp21">Samuel P. Hayes dalam Pembelajaran Anak Berkebutuhan Khusus dalam Setting Pendidikan Inklusi menjelaskan bahwa “kemampuan inteligensi anak dengan hendaya penglihatan tidak secara otomatis menjadikan diri mereka mempunyai inteligensi yang rendah.”11 Heyes seorang ahli dibidang pendidikan tunanetra pernah melakukan penelitian mengenai tingkat kecerdasan anak tunanetra. Dari penelitian tersebut didapatkan kesimpulan bahwa:
+Ketunanetraan tidak secara otomatis mengakibatkan kecerdasan rendah, mulainya ketunanetraan tidak memengaruhi tingkat kedewasaan, anak tunanetra ternyata banyak yang berhasil mencapai prestasi intelektual yang baik, apabila lingkungan memberikan kesempatan motivasi kepada anak tunanetra untuk berkembang, penyandang ketunanetraan tidak menunjukkan kelemahan dalam inteligensi verbal.
+</string>
+
+    <string name="tunetp22">Dari penelitian tersebut dapat diketahui bahwa tingkat kecerdasan anak tunanetra sama dengan anak-anak normal bila lingkungan di sekitar anak mendukung perkembangan potensi anak tunanetra.
+Anak-anak yang mengalami tunanetra memang memiliki keterbatasan ataupun ketidakberfungsian indra penglihatan mereka. Namun demikian mereka juga memiliki banyak kemampuan yang lain seperti pertama memiliki kemampuan untuk belajar bahasa dan berbicara meskipun perkembangan anak tunanetra sejak lahir perbendaharaan kata lebih lambat dan sedikit daripada anak normal.14 Kedua memiliki daya ingat yang kuat yang disebabkan kepemilikan kemampuan konseptual setelah melakukan latihan yang berulang-ulang. Ketiga memiliki kemampuan indra peraba yang sangat peka terhadap benda di depannya.15 Keempat memiliki indra pendengaran dengan sensitivitas yang tinggi, hal ini menjadikan indra pendengaran anak tunanetra menggantikan fungsi indra penglihatannya.16
+Uraian di atas mengindikasikan bahwa tingkat kecerdasan yang dimiliki oleh anak tunanetra sama dengan kecerdasan anak-anak lainnya.
+</string>
+
+    <string name="kbuka">Anak tunanetra secara fisik sama dengan anak-anak pada umumnya, namun terdapat beberapa hal yang membedakan antara keduanya. Terdapat beberapa karakteristik yang ada pada anak tunanetra diantaranya: </string>
+    <string name="kognitifbuka">Keterbatasan atau ketidakmampuan penglihatan berpengaruh pada perkembangan dan proses belajar siswa. Lowenfeld sebagaimana yang dikutip oleh Ardhi Wijaya menggambarkan dampak kebutaan dan lowfision terhadap perkembangan kognitif anak. Ia mengidentifikasi keterbatasan anak pada tiga area yaitu: </string>
+    <string name="kognitifa">Pengalaman anak tunanetra diperoleh dari indra-indra yang masih berfungsi pada tubuhnya, terutama indra pendengaran dan perabaan. Namun kedua indra tersebut tidak dapat menyeluruh dalam memberikan informasi seperti informasi warna, ukuran, dan ruang. Dalam memperoleh informasi anak haruslah melakukan kontak langsung dengan benda yang ia pelajari, sehingga untuk benda yang terlampau jauh seperti langit dan bintang, benda yang terlalu besar seperti gunung, benda yang terlalu rapuh seperti hewan kecil, atau benda yang membahayakan seperti api </string>
+    <string name="kognitifb">Keterbatasan penglihatan membuat anak tunanetra harus belajar berjalan dan mengenali lingkungannya agar mampu melakukan mobilitas secara aman, efektif, dan efisien</string>
+    <string name="kognitifc">Anak tunanetra sulit untuk berinteraksi dengan lingkungan, karena keterbatasan penglihatan mereka. Mereka membutuhkan waktu yang relatif lebih lama dalam mengenali lingkungannya</string>
+    <string name="akademik">Kemampuan akademik anak tunanetra secara umum sama dengan anak normal lainnya. Ketunanetraan mereka berpengaruh pada keterampilan membaca dan menulis mereka. Untuk memenuhi kebutuhan membaca dan menulis mereka dibutuhkan media dan alat yang sesuai. Anak dengan tunanetra total dapat membaca dan menulis dengan huruf braille, sedangkan anak low fision menggunakan huruf cetak dengan ukuran yang besar</string>
+    <string name="fisik">Keadaan fisik anak tunanetra yang sangat mencolok yaitu kelainan pada organ matanya. Terdapat beberapa gejala tunanetra yang dapat diamati yaitu mata juling, sering berkedip, menyipitkan mata, kelopak mata merah, mata infeksi, gerakan mata tak beraturan </string>
+    <string name="pembelajarantunet">Pada dasarnya pembelajaran bagi anak tunanetra sama dengan pembelajaran pada umumnya. Namun ada beberapa hal penting yang perlu diperhatikan oleh guru saat proses pembelajaran. Aqila Smart dalam bukunya menjelaskan beberapa prinsip yang harus diperhatikan saat proses pembelajaran bagi anak tunanetra diantaranya: </string>
+    <string name="individual">Prinsip individual yakni suatu kondisi dimana guru harus memperhatikan setiap perbedaan yang dimiliki oleh peserta didik tunanetra. Seperti perbedaan umum, mental, fisik, kesehatan dan tingkat ketunanetraan masing-masing siswa. </string>
+    <string name="pengalamanpengindra">Pengalaman pengindraan siswa tunanetra sangat penting bagi pemahaman yang akan mereka peroleh. Siswa membutuhkan pengalaman nyata dari apa yang mereka pelajari. Dengan demikian strategi pembelajaran guru harus memungkinkan adanya pengalaman langsung siswa tunanetra terkait materi yang mereka pelajari. </string>
+    <string name="totalitas">Prinsip totalitas maksudnya pembelajaran yang diterapkan pada siswa tunanetra hendaknya menggunakan seluruh fungsi indra yang masih berfungsi dengan baik pada diri mereka. Indra ini digunakan oleh guru untuk mengenali objek yang dipelajari siswa secara utuh dan menyeluruh. Misalnya seorang tunanetra ingi mengenali bentuk burung, pembelajaran yang diterapkan harus dapat memberikan informasi yang utuh dan baik mengenai bentuk, ukuran, sifat permukaan, kehangatan, suara dan ciri khas burung tersebut. Sehingga anak mampu mengenali objek secara sempurna.</string>
+    <string name="mandiri">Dalam proses pembelajaran guru dapat menjadi fasilitator dan motivator anak untuk dapat belajar secara aktif dan mandiri. Dalam prinsip ini proses pembelajaran bukan sekedar mendengar dan 19
+mencatat, akan tetapi juga ikut merasakan dan mengalaminya secara langsung
+</string>
+
+    <string name="definisitdsatu">Secara etiologis, gambaran seseorang yang di identifikasikan mengalami ketunadaksaan yaitu seseorang yang mengalami kesulitan mengoptimalkan fungsi anggota tubuh sebagai akibat dari luka, penyakit, pertumbuhan yang salah bentuk, dan akibatnya kemampuan untuk melakukan gerakan-gerakan tubuh tertentu mengalami penurunan.</string>
+    <string name="definisitddua">Secara definitif pengertian tunadaksa adalah ketidakmampuan anggota tubuh untuk melaksanakan fungsinya disebabkan oleh berkurangnya kemampuan anggota tubuh untuk melaksanakan fungsi secara normal sebagai akibat dari luka, penyakit, atau pertumbuhan yang tidak sempurna sehingga untuk kepentingan pembelajarannya perlu layanan secara khusus.</string>
+    <string name="definisitdtiga">Menurut Somantri Pengertian Tuna daksa adalah suatu keadaan rusak atau terganggu sebagai akibat gangguan bentuk atau hambatan pada tulang, otot, dan sendi dalam fungsinya yang normal. Kondisi ini disebabkan oleh penyakit, kecelakaan, atau dapat juga disebabkan oleh pembawaan sejak lahir. Tuna daksa sering juga diartikan sebagai suatu kondisi yang menghambat kegiatan individu sebagai akibat kerusakan atau gangguan pada tulang dan otot, sehingga mengurangi kapasitas normal individu untuk mengikuti pendidikan dan untuk berdiri sendiri.</string>
+    <string name="definisitdempat">Maka disimpulkan bahwa Tuna Daksa adalah suatu keadaan rusak atau terganggu sebagai akibat gangguan bentuk atau hambatan pada tulang, otot, dan sendi dalam fungsinya yang normal. Kondisi ini disebabkan oleh penyakit, kecelakaan, atau dapat juga disebabkan oleh pembawaan sejak lahir (pertumbuhan yang tidak sempurna). Sehingga mengakibatkan kecacatan dan membuat anggota tubuh menjadi kehilangan fungsinya</string>
+
+    <string name="karakteristik">1.Anggota gerak tubuh kaku / lemah / lumpuh.\n2.Kesulitan dalam gerakan (tidak sempurna, tidak lentur/tidak terkendali).
+\n3.Terdapat bagian anggota gerak yang tidak lengkap/tidak sempurna/lebih kecil dari biasa.
+\n4.Terdapat cacat pada alat gerak.
+\n5.Jari tangan kaku dan tidak dapat menggenggam.
+\n6.Kesulitan pada saat berdiri / berjalan / duduk, dan menunjukkan sikap tubuh tidak normal.
+\n7.Sulit untuk berpindah dari satu posisi ke posisi lain
+\n8.Sulit meraih benda di tempat tinggi atau rendah
+\n9.Gerakan tubuh kaku atau layu
+\n10.Sering terjatuh
+\n11.Penderita Cerebral Palsy dan penderita kekakuan otot bicara akan mengalami gangguan bicara
+</string>
+
+    <string name="kategori">Ada 2 kategori cacat tubuh, yaitu cacat anggota tubuh karena penyakit polio dan cacat tubuh karena kerusakan otak yang mngakibatkan ketidakmampuan gerak (Cerebral Palsy). Pada dasarnya cerebral Palsy merupakan gangguan koordinasi otot. Ototnya sendiri sebenarnya normal, tetapi otak mengalami gangguan mengirimkan sinyal-sinyal yang penting untuk memerintah otot-otot untuk memendekkan atau memanjangkan atau harus meregangkan (Puseschel,1989). Anak-anak semacam ini masih dapat belajar dengan menggunakan semua indranya. Tingkat intelektualnya umumnya normal bahkan ada yang sedikit diatas normal. Namun, kerusakan pada otak mereka akanmengalami kesulitan jika harus melakukan tugas-tugas yang berkaitan dengan koordinasi motorik dan atau keterampilan fisik, seperti olahraga, bermain, menulis, melakukan mobilitas dan sebagainya.</string>
+
+    <string name="carabantuberjalan">1.biarkan mereka bertumpu pada lengan atau bahu kita, jangan digandeng.
+\n2.Berikan sarana bidang miring (ramp) bagi pengguna kursi roda, atau bantu mendorong kursi rodanya
+\n3.Bagi penderita gangguan bicara, bicara singkat dan jelas
+\n4.Tawarkan tempat duduk dekat pintu
+\n5.Sediakan toilet yang cukup luas atau pintu toilet ditarik keluar
+\n6.Pasang railing sepanjang dinding
+\n7.Untuk bangunan bertingkat sediakan lift. Atau pindahkan kegiatan ke lantai bawah
+
+</string>
+
+
+    <string name="faktorpengembangandiri">Program pengembangan diri bagi anak gangguan gerak / fisik (tunadaksa) dalam lingkup pendidikan tidak bisa lepas dari keterampilan diri dan gerak dalam rangka untuk ADL (Activity of Daily Living). Pengembangan diri dan gerak bagi peserta didik tunadaksa pelaksanaannya meliputi activty of daily living (ADL) in Bad dan ADL out Bad. Ruang lingkup pengembangan diri dan gerak bagi peserta didik Tunadaksa adalah sebagai berikut:</string>
+
+    <string name="faktorpengembangandiria">Pengembangan diri peserta didik tunadaksa meliputi:\n\n
+1) Menolong diri sendiri, (kebersihan, berpakaian)\n
+2) Merawat, dan merias diri sendiri\n
+3) Mengurus diri sendiri\n
+4) Berkomunikasi dengan orang lain\n
+5) Bersosialisasi dalam kehidupan di lingkungannya\n
+6) Mengembangkan keterampilan hidup sehari-hari\n
+7) menyelamatkan diri dari bahaya.\n
+</string>
+    <string name="faktorpengembangandirib">Pengembangan gerak peserta didik tunadaksa meliputi:\n\n
+1) Melakukan gerak kontrol kepala, melakukan gerak anggota tubuh ( tangan, kaki, badan).\n
+2) Melakukan gerak pernapasan\n
+3) Melakukan gerak pindah diri\n
+4) Melakukan gerak koordinasi (motorik kasar dan motorik halus), koordinasi mata dan tangan, koordinasi mata dan kaki)\n
+5) Menggerakkan alat bantu gerak, (menggunakan alat bantu yang dipakai, alat bantu gerak, dan alat bantu yang sesuai dengan kebutuhannya masing-masing
+</string>
+
+
+    <string name="faktorprenatal">Kelainan fungsi anggota tubuh atau ketunadaksaan yang terjadi sebelum bayi lahir atau ketika dalam kandungan dikarenakan faktor genetik dan kerusakan pada sistem saraf pusat. Faktor yang menyebabkan bayi mengalami kelainan saat dalam kandungan adalah: Anoxia prenatal, hal ini disebabkan pemisahan bayi dari plasenta, penyakit anemia, kondisi jantung yang gawat, shock, dan percobaan pengguguran kandungan atau aborsi, gangguan metabolisme pada ibu, bayi dalam kandungan terkena radiasi, radiasi langsung mempengaruhi sistem syaraf pusat sehingga sehingga struktur maupun fungsinya terganggu, ibu mengalami trauma (kecelakaan). Trauma ini dapat mempengaruhi sistem pembentukan syaraf pusat. Misalnya ibu yang jatuh dan mengalami benturan keras pada perutnya dan mengenai kepala bayi akan mengganggu sistem syaraf pusat, infeksi atau virus yang menyerang ibu hamil sehingga mengganggu perkembangan otak bayi yang dikandungnya.</string>
+    <string name="faktorneonatal">Mengalami kendala saat melahirkan, seperti: Kesulitan melahirkan karena posisi bayi sungsang atau bentuk pinggul ibu yang terlalu kecil, pendarahan pada otak saat kelahiran, kelahiran prematur, penggunaan alat bantu kelahiran berupa tang karena mengalami kesulitan kelahiran yang mengganggu fungsi otak pada bayi, gangguan plasenta yang mengakibatkan kekurangan oksigen yang dapat mengakibatkan terjadinya anoxia dan pemakaian anestasi yang melebihi ketentuan adalah contoh faktor Neonatal penderita Tuna Daksa. Pemakaian anestasi yang berlebihan ketika proses operasi juga dapat mempengaruhi sistem persyarafan otak bayi yang berakibat pada disfungsi otak.</string>
+    <string name="faktorpostnatal">Walaupun proses melahirkan sudah berlalu, tidak ada jaminan seorang individu untuk terbebas dari Tuna Daksa seumur hidupnya. Penyakit seperti meningitis (radang selaput otak), enchepalitis (radang otak), influenza, diphteria, dan partusis adalah beberapa penyakit yang dapat berdampak fatal menyebabkan disfungsi otak. Selain itu, mengalami benturan keras di bagian kepala, dan terjatuh dari tempat yang tinggi tanpa menggunakan pengaman kepala juga merupakan faktor penyebab Tuna Daksa.</string>
+
+
+    <string name="tunadaksatarafringan">Tunadaksa taraf ringan. Termasuk dalam klasifikasi ini adalah tunadaksa murni dan tunadaksa kombinasi ringan. Tunadaksa jenis ini pada umunya hanya mengalami sedikit gangguan mental dan kecerdasannya cenderung normal. Kelompok ini lebih banyak disebabkan adanya kelainan anggota tubuh saja. Seperti lumpuh, anggota tubuh berkurang (buntung) dan cacat fisik lainnya.</string>
+    <string name="tunadaksatarafsedang">Tunadaksa taraf sedang. Termasuk dalam klasifikasi ini adalah tunadaksa akibat cacat bawaan, cerebral palsy ringan dan polio ringan. Kelompok ini banyak dialami dari tuna akibat cerebral palsy (tunamental) yang disertai dengan menurunnya daya ingat walau tidak sampai jauh dibawah normal.</string>
+    <string name="tunadaksatarafberat">Tunadaksa taraf berat. Termasuk dalam klasifikasi ini adalah tuna akibat cerebral palsy berat dan ketunaan akibat infeksi. Pada umunya, anak yang terkena kecacatan ini tingkat kecerdasannya tergolong dalam kelas debil, embesil dan idiot.</string>
+
+    <string name="pengertianautispg1">Autisme berasal dari istilah dalam bahasa Yunani; „aut‟ = diri sendiri, isme‟ orientation/state= orientasi/keadaan. Maka autisme dapat diartikan sebagai kondisi seseorang yang secara tidak wajar terpusat pada dirinya sendiri; kondisi seseorang yang senantiasa berada di dalam dunianya sendiri</string>
+    <string name="pengertianautispg2">Istilah “autisme” pertama kali diperkenalkan oleh Leo Kanner pada tahun 1943, selanjutnya ia juga memakai istilah “Early Infantile Autism”, atau dalam bahasa Indonesianya diterjemahkan sebagai “Autisme masa kanak-kanak” . Hal ini untuk membedakan dari orang dewasa yang menunjukkan gejala autisme seperti ini.</string>
+    <string name="pengertianautispg3">Autisme merupakan suatu gangguan perkembangan pada anak yang sifatnya komplek dan berat, biasanya telah terlihat sebelum berumur 3 tahun, tidak mampu untuk berkomunikasi dan mengekspresikan perasaan maupun keinginannya. Akibatnya perilaku dan hubungannya dengan orang lain menjadi terganggu, sehingga keadaan ini akan sangat mempengaruhi perkembangan anak selanjutnya.</string>
+    <string name="pengertianautispg4">Autisme dapat mengenai siapa saja tidak tergantung pada etnik, tingkat pendidikan, sosial dan ekonomi. Autisme bukanlah masalah baru, dari berbgai bukti yang ada, diketahui kelainan ini sudah ada sejak berabad-abad yang lampau. Hanya saja istilahnya relatif masih baru. Diperkirakan kira-kira sampai 15 tahun yang lalu, autisme merupakan suatu gangguan yang masih jarang ditemukan, diperkirakan hanya 2-4 penyandang autisme. Tetapi sekarang terjdi peningkatan jumlah penyandang autisme sampai lebih kurang 15-20 per 10.000 anak. Jika angka kelahiran pertahun di Indonesia 4,6 juta anak, maka jumlah penyandang autisme pertahun akan bertambah dengan 0,15% yaitu 6900 anak</string>
+
+    <string name="penyebabatpg1">Beberapa tahun yang lalu, penyebab autisme masih merupkan suatu misteri, oeh karena itu banyak hipotesis yang berkembang mengenai penyebab autisme. Salah satuhipotesis yang kemudian mendapat tanggapan yang luas adalah teori “ibu yang dingin”. Menurut teori ini dikatakan bahwa anak masuk ke dalam dunianya sendiri oleh karena merasa ditolak oleh ibu yang dingin. Teori ini banyak yang menentang karena banyak ibu yang bersifat hangat tetap mempunyai anak yang menunjukkan ciri-ciri autisme. Teori tersebut tidak memberi gambaran secara pasti, sehingga hal ini mengakibatkan penanganan yang diberikan kurang tepat bahkan tidak jarang berlawanan dan berakibat kurang menguntungan bagi pekembangan individu autisme.Kemajuan ilmu pengetahuan dan teknologi terutama di bidang kedokteran akhir-akhir ini telah menginformasikan individu dengan gangguan autisme mengalami kelainan neurobiologis pada susunan saraf pusat. Kelainan ini berupa pertumbuhan sel otak yang tidak sempurna pada beberapa bagian otak. Gangguan pertumbuhan sel otak ini, terjadi selama kehamilan, terutama kemahilan muda dimana sel-sel otak sedang dibentuk.</string>
+    <string name="penyebabatpg2">Pemeriksaan dengan alat khusus yang disebut Magnetic Resonance Imaging (MRI) pada otak ditemukan adanya kerusakan yang khas di dalam otak pada daerah apa yang disebut dengan limbik sistem (pusat emosi). Pada umumnya individu autisme tidak dapat mengendalikan emosinya, sering agresif terhadap orang lain dan diri sendiri, atau sangat pasif seolah- olah tidak mempunyai emosi. Selain itu muncul pula perilaku yang berulang-ulang (stereotipik) dan hiperaktivitas. Kedua peilaku tersebut erat kaitannya dengan adanya gangguan pada daerah limbik sistem di otak. Terdapat beberapa dugaan yang menyebabkan terjadinya kerusakan pada otak yang menimbulkan gangguan autisme di antaranya adanya pertumbuhan jamur Candida yang berlebihan di dalam usus. Akibat terlalu banyak jamur , maka sekresi enzim ke dalam usus berkurang. Kekurangan enzim menyebabkan makanan tak dapat dicerna dengan sempurna. Beberapa protein jika tidak dicerna secara sempurna akan menjadi “racun” bagi tubuh. Protein biasanya suatu rantai yang terdiri dari 20 asam amino. Bila pencernaan baik, maka rantai tersebut seluruhnya dapat diputus dan ke-20 asam amino tersebut akan diserap oleh tubuh. Namun bila pencernaan kurang baik, maka masih ada beberapa asam amino yang rantainya belum terputus. Rangkaian yang terdiri dari beberapa asam amino disebut peptida. Oleh karena adanya kebocoran usus , maka peptida tersebut diserap melalui dinding usus, masuk ke dalam aliran darah,menembus ke dalam otak. Di dalam otak peptida tersebut ditangkap oleh reseptor oploid, dan ia berfungsi seperti opium atau morfin. Melimpahnya zat-zat yang bekerja seperti opium ini ke dalam otak menyebabkan terganggunya kerja susunan saraf pusat. Yang terganggu biasanya seperti persepsi, kognisi (kecerdasan), emosi, dan perilaku. Dimana gejalanya mirip dengan gejala yang ada pada individu autisme. Tentu masih terdapat dugaan-dugaan lain yang menimbulkan keruskan pada otak seperti adanya timbal , mercury atau zat beracun lainnya yang termakan bersama makanan yang dikonsumsi ibu hamil, yang selanjutnya mempengaruhi pertumbuhan otak janin yang dikandungnya. Apapun yang melatarbelakangi penyebab gangguan pada individu autisme, yang jelas bukan karena ibu yang frigit (ibu yang tidak memberi kehangatan kasih sayang), seperti yang dianut dahulu, akan tetapi gangguan pada autisme terjadi erat kaitannya dengan gangguan pada otak</string>
+
+    <string name="karakteristikatpg1">Karakteristik gangguan autisme pada sebagian individu sudah mulai muncul sejak bayi. Kciri yang sangat menonjol adalah tidak ada kontak mata dan reaksi yang sangatminim terhadap ibunya atau pengasuhnya.Ciri ini semakin jelas dengan bertambahnya umur. Pada sebagian kecil lainnya dari individu penyandang autisme, perkembangannya sudah terjadi secara “.relatif normal”. Pada saat bayi sudah menatap, mengoceh, dan cukup menunjukkan reaksi pada orang lain, tetapi kemudian pada suatu saat sebelum usia 3 tahun ia berhenti berkembang dan terjadi kemunduran. Ia mulai menolak tatap mata, berhenti mengoceh, dan tidak bereaksi terhdap orang lain.</string>
+    <string name="karakteristikatpg2">Oleh karena itu kemudian diketahui bahwa seseorang baru dikatakan mengalami gangguan autisme , jika ia memiliki gangguan perkembangan dalam tiga aspek yaitu kualitas kemampuan interaksi sosial dan emosional, kualitas yang kurang dalam kemampuan komunikasi timbal balik, dan minat yang terbatas disertai gerakan-gerakan berulang tanpa tujuan Ciri-ciri tersebut harus sudah terlihat sebelum anak berumur 3 tahun. Mengingat bahwa tiga aspek gangguan perkembangan di atas terwujud dalam berbagai bentuk yang berbeda, dapat disimpulkan bahwa autisme sesungguhnya adalah sekumpulan gejala/ciri yang melatar-belakangi berbagai faktor yang sangat bervariasi, berkaitan satu sama lain dan unik karena tidak sama untuk masing-masing anak.</string>
+    <string name="karakteristikatpg3">Dengan demikian, maka sering ditemukan ciri-ciri yang tumpang tindih dengan beberapa gangguan perkembangan lain. Gradasi manifestasi gangguan juga sangat lebar antara yang berat hingga yang ringan. Di satu sisi ada individu yang memiliki semua gejala, dan di sisi lain ada individu yang memiliki sedikit gejala.</string>
+
+    <string name="cirigangguanatpg1">- terlambat bicara, tidak ada usaha untuk berkomunikasi dengan gerak dan mimik\n
+- meracau dengan bahasa yang tidak dapat dimengerti orang lain
+- sering mengulang apa yang dikatakan orang lain\n
+- meniru kalimat-kalimat iklan atau nyanyian tanpa mengerti\n
+- bicara tidak dipakai untuk komunikasi\n
+- bila kata-kata telah diucapkan, ia tidak mengerti artinya\n
+- tidak memahami pembicaraab orang lain\n
+- menarik tangan orang lain bila menginginkan sesuatu</string>
+    <string name="cirigangguanatpg2">- menghindari atau menolak kontak mata\n
+- tidak mau menengok bila dipanggil \n
+- lebih asik main sendiri \n
+- bila diajak main malah menjauh\n
+- tidak dapat merasakan empati</string>
+    <string name="cirigangguanatpg3">- asyik main sendiri\n
+- tidak acuh terhadap lingkungan\n
+- tidak mau diatur, semaunya\n
+- menyakiti diri\n
+- melamun, bengong dengan tatapan mata kosong\n
+- kelekatan pada benda tertentu\n
+- tingkah laku tidak terarah, mondar mandir tanpa tujuan, lari-lari, manjat-manjat, berputar-putar, melompat-lompat, mengepak-ngepak tangan, berteriak-teriak, berjalan berjinjit-jinjit.</string>
+
+    <string name="cirigangguanatpg4">- rasa takut terhadap objek yang sebenarnya tidak menakutkan\n
+- tertawa, menangis, marah-marah sendiri tanpa sebab\n
+- tidak dapat mengendalikan emosi, ngamuk bila tidak mendapatkan keinginannya</string>
+    <string name="cirigangguanatpg5">- menjilat-jilat benda\n
+- mencium benda-benda atau makanan\n
+- menutup telinga bila mendengar suara keras dengan nada tertentu\n
+- tidak suka memakai baju dengan bahan yang kasar</string>
+
+    <string name="penangananat">Penanganan pada anak autisme ditujukan terutama untuk mengurangi atau menghilangkan masalah gangguan tingkah laku, meningkatkan kemampuan belajar dan perkembangannya terutama dalam penguasaan bahasa dan keterampilan menolong diri. Supaya tujuan tercapai dengan baik diperlukan suatu program penanganan menyeluruh dan terpadu dalam suatu tim yang terdiri dari; tenaga medis antara lain dokter saraf dan dokter anak, tenaga pendidik, tenaga terapis seperti ahli terapi wicara dan ahli terapi okupasi. Beberapa penanganan yang telah dikembangan untuk membantu anak autisme antara lain :</string>
+    <string name="terapitingkahlaku">Berbagai jenis terapi tingkahlaku telah dikembangkan untuk mendidik penyandang autisme, mengurangi tingkahlaku yang tidak lazim dan menggantinya dengan tingkahlaku yang bisa diterima dslsm masyarakat Terapi ini sangat penting untuk membantu penyandang autisme untuk lebih bisa menyesuaikan diri dalam masyarakat.</string>
+    <string name="terapiwicara">Terapi wicara seringkali masih tetap dibutuhkan untuk memperlancar bahasa anak. Menerapkan terapi wicara pasda anak autisme berbeda daripada anak lain. Oleh karena itu diperlukan pengetahuan yang cukup mendalam tentang gangguan bicara pada anak autisme.</string>
+    <string name="pendidikankhusus">Pendidikan pada tahap awal diterapkan satu guru untuk satu anak. Cara ini paling efektif karena anak sulit memusatkan perhatiannya dalam suatu kelas yang besar. Secara bertahap anak dimasukan dalam kelompok kelas untuk dapat mengikuti pembelajaran secara klasikal. Penggunaan guru pendamping sebaiknya tidak terlalu dominan, yang diharapkan adalah anak dengan gangguan autisme dapat secara terus menerus belajar dengan anak-anak lainnya dalam satu pembelajaran bersama. Pola pendidikan yang terstruktur baik di sekolah maupun di rumah sangat diperlukan bagi anak ini. Mereka harus dilatih untuk mandiri, terutama soal bantu diri. Maka seluruh keluarga di rumah harus memakai pola yang sama Agar tidak membingungkan anak</string>
+    <string name="terapiokupasi">Sebagian individu dengan gangguan autisme mempunyai perkembangan motorik terutama motorik halus yang kurang baik. Terapi okupasi diberikan untuk membantu menguatkan, memperbaiki koordinasi dan keterampilan otot halus seperti tangan. Otot jari tangan penting dilatih terutama untuk persiapan menulis dan melakukan segala pekerjaan yang membutuhkan keterampilan motorik halus.</string>
+    <string name="terapiobat">Pada keadaan tertentu individu dengan gangguan autisme mempunyai beberapa gejala yang menyertai gangguan autisme, seperti perilaku agresif atau hiperaktivitas. Pada individu dengan keadaan demikian dianjurkan untuk menggunakan pemberian obat-obatan secara tepat. Penggunaaan obat-obat yang digunkan biasanya dilakukan dengan cermat agar memperoleh pengaruh positif terhadap perkembangan anak.</string>
+
+    <string name="tulipg1">Anak tunarungu merupakan anak yang mempunyai gangguan pada pendengarannya sehingga tidak dapat mendengar bunyi dengan sempurna atau bahkan tidak dapat mendengar sama sekali, tetapi dipercayai bahwa tidak ada satupun manusia yang tidak bisa mendengar sama sekali. Walaupun sangat sedikit, masih ada sisa-sisa pendengaran yang masih bisa dioptimalkan pada anak tunarungu tersebut. Berkenaan dengan tunarungu, terutama tentang pengertian tunarungu terdapat beberapa pengertian sesuai dengan pandangan dan kepentingan masing-masing.
+</string>
+    <string name="tulipg2">Menurut Andreas Dwidjosumarto (dalam Sutjihati Somantri, 1996:74) mengemukakan bahwa: seseorang yang tidak atau kurang mampu
+mendengar suara dikatakan tunarungu. Ketunarunguan dibedakan menjadi dua kategori, yaitu tuli (deaf) atau kurang dengar (hard of hearing). Tuli
+adalah anak yang indera pendengarannya mengalami kerusakan dalam taraf berat sehingga pendengarannya tidak berfungsi lagi. Sedangkan
+kurang dengar adalah anak yang indera pendengarannya mengalami kerusakan, tetapi masih dapat berfungsi untuk mendengar, baik dengan maupun tanpa menggunakan alat bantu dengar (hearing aids).Istilah tunarungu diambil dari kata “tuna” dan “rungu”, tuna artinya
+kurang dan rungu artinya pendengaran. Orang dikatakan tunarungu apabila tidak mampu mendengar atau kurang mampu mendengar suara. Apabila dilihat secara fisik, anak tunarungu tidak berbeda dengan anak dengar pada umumnya. Pada saat berko
+</string>
+
+    <string name="tulipg3">Murni Winarsih (2007: 22) mengemukakan bahwa tunarungu adalah suatu istilah umum yang menunjukkan kesulitan mendengar dari
+yang ringan sampai berat, digolongkan ke dalam tuli dan kurang dengar. Orang tuli adalah yang kehilangan kemampuan mendengar sehingga menghambat proses informasi bahasa melalui pendengaran, baik memakai ataupun tidak memakai alat bantu dengar dimana batas pendengaran yang
+dimilikinya cukup memungkinkan keberhasilan proses informasi bahasa melalui pendengaran. Tin Suharmini (2009: 35) mengemukakan tunarungu dapat diartikan sebagai keadaan dari seorang individu yang mengalami kerusakan pada indera pendengaran sehingga menyebabkan tidak bisa
+menangkap berbagai rangsang suara, atau rangsang lain melalui pendengaran.Beberapa pengertian dan definisi tunarungu di atas merupakan definisi yang termasuk kompleks, sehingga dapat disimpulkan bahwa anak tunarungu adalah anak yang memiliki gangguan dalam pendengarannya,baik secara keseluruhan ataupun masih memiliki sisa pendengaran.Meskipun anak tunarungu sudah diberikan alat bantu dengar, tetap saja anak tunarungu masih memerlukan pelayanan pendidikan khusus
+</string>
+
+
+    <string name="karakteristiktuli">Karakteristik anak tunarungu dari segi fisik tidak memiliki karakteristik yang khas, karena secara fisik anak tunarungu tidak
+mengalami gangguan yang terlihat. Sebagai dampak ketunarunguannya,anak tunarungu memiliki karakteristik yang khas dari segi yang berbeda.Permanarian Somad dan Tati Hernawati (1995: 35-39) mendeskripsikan karakteristik ketunarunguan dilihat dari segi: intelegensi, bahasa dan bicara, emosi, dan sosial.
+</string>
+
+    <string name="karakteristikintelegensi">Intelegensi anak tunarungu tidak berbeda dengan anak normal yaitu
+tinggi, rata-rata dan rendah. Pada umumnya anak tunarungu memiliki
+entelegensi normal dan rata-rata. Prestasi anak tunarungu seringkali lebih
+rendah daripada prestasi anak normal karena dipengaruhi oleh kemampuan
+anak tunarungu dalam mengerti pelajaran yang diverbalkan. Namun untuk
+pelajaran yang tidak diverbalkan, anak tunarungu memiliki perkembangan
+yang sama cepatnya dengan anak normal. Prestasi anak tunarungu yang
+rendah bukan disebabkan karena intelegensinya rendah namun karena anak
+tunarungu tidak dapat memaksimalkan intelegensi yang dimiliki. Aspek
+intelegensi yang bersumber pada verbal seringkali rendah, namun aspek
+intelegensi yang bersumber pada penglihatan dan motorik akan
+berkembang dengan cepat.
+</string>
+    <string name="karakteristiksegibahasa">Kemampuan anak tunarungu dalam berbahasa dan berbicara
+berbeda dengan anak normal pada umumnya karena kemampuan tersebut
+sangat erat kaitannya dengan kemampuan mendengar. Karena anak
+tunarungu tidak bisa mendengar bahasa, maka anak tunarungu mengalami
+hambatan dalam berkomunikasi. Bahasa merupakan alat dan sarana utama
+seseorang dalam berkomunikasi. Alat komunikasi terdiri dan membaca,
+menulis dan berbicara, sehingga anak tunarungu akan tertinggal dalam tiga
+aspek penting ini. Anak tunarungu memerlukan penanganan khusus dan
+lingkungan berbahasa intensif yang dapat meningkatkan kemampuan
+berbahasanya. Kemampuan berbicara anak tunarungu juga dipengaruhi
+oleh kemampuan berbahasa yang dimiliki oleh anak tunarungu.
+Kemampuan berbicara pada anak tunarungu akan berkembang dengan
+sendirinya namun memerlukan upaya terus menerus serta latihan dan
+bimbingan secara profesional. Dengan cara yang demikianpun banyak dari
+mereka yang belum bisa berbicara seperti anak normal baik suara, irama
+dan tekanan suara terdengar monoton berbeda dengan anak normal.
+</string>
+    <string name="karakteristikemosional">Ketunarunguan dapat menyebabkan keterasingan dengan
+lingkungan. Keterasingan tersebut akan menimbulkan beberapa efek
+negatif seperti: egosentrisme yang melebihi anak normal, mempunyai
+perasaan takut akan lingkungan yang lebih luas, ketergantungan terhadap
+orang lain, perhatian mereka lebih sukar dialihkan, umumnya memiliki
+sifat yang polos dan tanpa banyak masalah, dan lebih mudah marah dan
+cepat tersinggung.
+</string>
+
+
+    <string name="sifat1sampai3">1) Egosentrisme yang melebihi anak normal
+Sifat ini disebabkan oleh anak tunarungu memiliki dunia yang kecil
+akibat interaksi dengan lingkungan sekitar yang sempit. Karena
+mengalami gangguan dalam pendengaran, anak tunarungu hanya melihat
+dunia sekitar dengan penglihatan. Penglihatan hanya melihat apa yang di
+depannya saja, sedangkan pendengaran dapat mendengar sekeliling
+lingkungan. Karena anak tunarungu mempelajari sekitarnya dengan
+menggunakan penglihatannya, maka aka timbul sifat ingin tahu yang
+besar, seolah-olah mereka haus untuk melihat, dan hal itu semakin
+membesarkan egosentrismenya.\n\n
+2) Mempunyai perasaan takut akan lingkungan yang lebih luas
+Perasaan takut yang menghinggapi anak tunarungu seringkali
+disebabkan oleh kurangnya penguasaan terhadap lingkungan yang
+berhubungan dengan kemampuan berbahasanya yang rendah. Keadaan
+menjadi tidak jelas karena anak tunarungu tidak mampu menyatukan dan
+menguasai situasi yang baik.\n\n
+3) Ketergantungan terhadap orang lain
+Sikap ketergantungan terhadap orang lain atau terhadap apa yang
+sudah dikenalnya dengan baik, merupakan gambaran bahwa mereka sudah
+putus asa dan selalu mencari bantuan serta bersandar pada orang lain
+</string>
+    <string name="sifat4sampai6">4)Perhatian mereka lebih sukar dialihkan
+Sempitnya kemampuan berbahasa pada anak tunarungu
+menyebabkan sempitnya alam fikirannya. Alam fikirannya selamanya
+terpaku pada hal-hal yang konkret. Jika sudah berkonsentrasi kepada suatu
+hal, maka anak tunarungu akan sulit dialihkan perhatiannya ke hal-hal lain
+yang belum dimengerti atau belum dialaminya. Anak tunarungu lebih
+miskin akan fantasi.\n\n
+5) Umumnya memiliki sifat yang polos, sederhana dan tanpa banyak
+masalah Anak tunarungu tidak bisa mengekspresikan perasaannya dengan
+baik. Anak tunarungu akan jujur dan apa adanya dalam mengungkapkan
+perasaannya. Perasaan anak tunarungu biasanya dalam keadaan ekstrim
+tanpa banyak nuansa.\n\n
+6) Lebih mudah marah dan cepat tersinggung Karena banyak merasakan kekecewaan akibat tidak bisa dengan
+mudah mengekspresikan perasaannya, anak tunarungu akan mengungkapkannya dengan kemarahan. Semakin luas bahasa yang mereka miliki semakin mudah mereka mengerti perkataan orang lain, namun
+semakin sempit bahasa yang mereka miliki akan semakin sulit untuk mengerti perkataan orang lain sehingga anak tunarungu
+mengungkapkannya dengan kejengkelan dan kemarahan.Berdasarkan karakteristik anak tunarungu dari beberapa aspek yang
+sudah dibahas diatas, maka dapat disimpulkan bahwa sebagai dampak dari
+ketunarunguannya tersebut hal yang menjadi perhatian adalah kemampuan
+berkomunikasi anak tunarungu yang rendah. Intelegensi anak tunarungu
+umumnya berada pada tingkatan rata-rata atau bahkan tinggi, namun
+prestasi anak tunarungu terkadang lebih rendah karena pengaruh
+kemampuan berbahasanya yang rendah. Maka dalam pembelajaran di
+sekolah anak tunarungu harus mendapatkan penanganan dengan
+menggunakan metode yang sesuai dengan karakteristik yang dimiliki.
+Anak tunarungu akan berkonsentrasi dan cepat memahami kejadian yang
+sudah dialaminya dan bersifat konkret bukan hanya hal yang diverbalkan.
+Anak tunarungu membutuhkan metode yang tepat untuk meningkatkan
+kemampuan berbahasanya yaitu metode yang dapat menampilkan
+kekonkretan sesuai dengan apa yang sudah dialaminya. Metode
+pembelajaran untuk anak tunarungu haruslah yang kaya akan bahasa
+konkret dan tidak membiarkan anak untuk berfantasi mengenai hal yang
+belum diketahui.
+</string>
+
+
+    <string name="klasifikasituli">
+
+        Klasifikasi mutlak diperlukan untuk layanan pendidikan khusus.Hal ini sangat menentukan dalam pemilihan alat bantu mendengar yang
+sesuai dengan sisa pendengarannya dan menunjang lajunya pembelajaran yang efektif. Dalam menentukan ketunarunguan dan pemilihan alat bantu
+dengar serta layanan khusus akan menghasilkan akselerasi secara optimal dalam mempersepsi bunyi bahasa dan wicara.
+
+    </string>
+    <string name="klasifikasitulisatu">Menurut Boothroyd (dalam Murni Winarsih, 2007:23) klasifikasi
+ketunarunguan adalah sebagai berikut.\n
+a. Kelompok I : kehilangan 15-30 dB, mild hearing losses atau
+ketunarunguan ringan; daya tangkap terhadap suara cakapan manusia
+normal.\n
+b. Kelompok II: kehilangan 31-60, moderate hearing losses atau
+ketunarunguan atau ketunarunguan sedang; daya tangkap terhadap
+suara cakapan manusia hanya sebagian.\n
+c. Kelompok III: kehilangan 61-90 dB, severe hearing losses atau
+ketunarunguan berat; daya tangkap terhadap suara cakapan manusia
+tidak ada.\n
+d. Kelompok IV: kehilangan 91-120 dB, profound hearing losses atau
+ketunarunguan sangat berat; daya tangkap terhadap suara cakapan
+manusia tidak ada sama sekali.\n
+e. Kelompok V: kehilangan lebih dari 120 dB, total hearing losses atau
+ketunarunguan total; daya tangkap terhadap suara cakapan manusia
+tidak ada sama sekali.
+</string>
+
+    <string name="klasifikasitulidua">
+
+        Selanjutnya Uden (dalam Murni Winarsih, 2007:26) membagi
+klasifikasi ketunarunguan menjadi tiga, yakni berdasar saat terjadinya
+ketunarunguan, berdasarkan tempat kerusakan pada organ
+pendengarannya, dan berdasar pada taraf penguasaan bahasa.\n
+1. Berdasarkan sifat terjadinya\n
+a. Ketunarunguan bawaan, artinya ketika lahir anak sudah
+mengalami/menyandang tunarungu dan indera pendengarannya
+sudah tidak berfungsi lagi.\n
+b. Ketunarunguan setelah lahir, artinya terjadinya tunarungu setelah
+anak lahir diakibatkan oleh kecelakaan atau suatu penyakit.\n
+2. Berdasarkan tempat kerusakan\n
+a. Kerusakan pada bagian telinga luar dan tengah, sehingga
+menghambat bunyi-bunyian yang akan masuk ke dalam telinga
+disebut Tuli Konduktif.\n
+b. Kerusakan pada telinga bagian dalam sehingga tidak dapat
+mendengar bunyi/suara, disebut Tuli Sensoris.\n
+3. Berdasarkan taraf penguasaan bahasa\n
+a. Tuli pra bahasa (prelingually deaf) adalah mereka yang menjadi tuli
+sebelum dikuasainya suatu bahasa (usia 1,6 tahun) artinya anak
+menyamakan tanda (signal) tertentu seperti mengamati, menunjuk,
+meraih dan sebagainya namun belum membentuk system lambang.\n
+b. Tuli purna bahasa (post lingually deaf) adalah mereka yang menjadi
+tuli setelah menguasai bahasa, yaitu telah menerapkan dan
+memahami system lambang yang berlaku di lingkungan.
+Klasifikasi dalam dunia pendidikan diperlukan untuk menentukan
+bagaimana intervensi yang akan dilakukan lembaga terkait. Ada banyak
+jenis klasifikasi termasuk yang sudah dipaparkan di atas. Klasifikasi di
+atas merupakan jenis klasifikasi yang membagi tunarungu menjadi
+beberapa kelompok sesuai dengan kehilangan pendengarannya dan tempat
+terjadi kerusakan. Klasifikasi memudahkan untuk menentukan dan
+memfokuskan subjek dalam penelitian ini. Subjek dalam penelitian ini
+termasuk dalam klasifikasi ketunarunguan bawaan, ketika lahir anak sudah
+mengalami ketunarunguan sehingga intervensi yang lambat mempengaruhi
+kemampuan berbahasa anak tunarungu
+
+    </string>
+
+
+    <string name="komunikasisatu">Mayoritas mengenai penyandang tunarungu lebih nyaman berkomunikasi dengan menggunakan bahasa isyarat dikarnakan karena keterbatasan yang mereka miliki, mereka merasa lebih dihargai. Sebagai orang yang dapat mendengar, alangkah eloknya jika kita menghargai orang yang berkelainan dengan ikut menggunakan bahasa isyarat dalam berkomunikasi dengan orang penyandang tunarungu. Jika betul dipelajari sebenarnya mudah untuk praktek. Dasar penggunaan bahasa isyarakt ada tiga, yaitu expresi, oral dan gerak tangan</string>
+    <string name="komunikasidua">Dengan bahasa isyarat kita membantu orang penyandang tunarungu dalam berkomunikasi. Karena pada dasarnya orang penyandang tunarungu masih mengalami sisi kesulitan dalam merangkat kata atau peletakan kata baik dalam pengucapan, maupun dalam penulisan.
+Kemapuan komunikasi yang dimiliki tunarungu terbatas dalam menyampaikan pemikiran, perasaan, gagasan, kebutuhan, dan kehendaknya pada orang lain seperti perkataan. Pada remaja tunarungu menggunaan komunikasi khusus yaitu menggunakan isyarat, gerak bibir, ejaan jari, mimic atau gesture, serta pemampaan sisa pendengaran dengan menggunakan alat bantu atau hearing aid.
+</string>
+    <string name="komunikasitiga">Untuk komunikasi anak tunarungu tidak berbeda dengab anak yang bisa mendengar, yaitu bentuk komunikasi expresif dan reseftif. Komunikasi expresif meliputi berbicara, berisyarat, berejaan jari, menulis dan mimik. Sedangkan komunikasi reseftif meliputi membaca ujaran, membaca isyarat, membaca ejaan jari, membaca mimik, serta pemanfaatan sisa pendengaran dengan alat bantu. Komunikasi tersebut digunakan dengan menggunakan kode, yaitu cara verbal dan non verbal.</string>
+
+
+    <string-array name="kategorisoal">
+        <item>Tuli</item>
+        <item>Daksa</item>
+        <item>Autis</item>
+        <item>Netra</item>
+        <item>Quiz</item>
+
+    </string-array>
+
+
+</resources>
+
+

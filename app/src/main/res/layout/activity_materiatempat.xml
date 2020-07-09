@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".materi.autisme.materiatempat">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/gray4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="50dp"
+                android:textSize="20dp"
+                android:paddingStart="4dp"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/chapaza"
+                android:textColor="@color/bluemenu"
+                android:textStyle="bold"
+                android:text="Ciri Gangguan pada Autisme"
+                android:layout_height="wrap_content"
+
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:textSize="17dp"
+                android:paddingStart="4dp"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/newlin"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="18/04/2020"
+                android:layout_height="wrap_content"
+
+                />
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_width="400dp"
+                android:padding="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gangguanautis"
+                android:layout_height="200dp"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:paddingStart="4dp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/chapaza"
+                android:textColor="@color/bluemenu"
+                android:text="1. Gangguan dalam Komunikasi"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+
+                android:layout_margin="5dp"
+                android:background="@color/bluemenu"
+
+                android:padding="10dp"
+                android:fontFamily="@font/newlin"
+                android:layout_marginTop="28dp"
+                android:textColor="@color/white"
+                android:elevation="6dp"
+                android:textStyle="bold"
+                android:text="@string/cirigangguanatpg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:paddingStart="4dp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/chapaza"
+                android:textColor="@color/pinkmenu"
+                android:text="2. Gangguan dalam Interaksi Sosial"
+                android:layout_height="wrap_content"
+
+                />
+
+
+            <TextView
+                android:layout_margin="5dp"
+                android:background="@color/pinkmenu"
+                android:padding="10dp"
+                android:fontFamily="@font/newlin"
+                android:layout_marginTop="28dp"
+                android:textColor="@color/white"
+                android:elevation="6dp"
+                android:textStyle="bold"
+                android:text="@string/cirigangguanatpg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:paddingStart="4dp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/chapaza"
+                android:textColor="@color/bluemenu"
+                android:text="3. Gangguan dalam Tingkah Laku"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+
+                android:layout_margin="5dp"
+                android:background="@color/bluemenu"
+
+                android:padding="10dp"
+                android:fontFamily="@font/newlin"
+                android:layout_marginTop="28dp"
+                android:textColor="@color/white"
+                android:elevation="6dp"
+                android:textStyle="bold"
+                android:text="@string/cirigangguanatpg3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:paddingStart="4dp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/chapaza"
+                android:textColor="@color/pinkmenu"
+                android:text="4. Gangguan dalam Emosi"
+                android:layout_height="wrap_content"
+
+                />
+
+
+            <TextView
+                android:layout_margin="5dp"
+                android:background="@color/pinkmenu"
+                android:padding="10dp"
+                android:fontFamily="@font/newlin"
+                android:layout_marginTop="28dp"
+                android:textColor="@color/white"
+                android:elevation="6dp"
+                android:textStyle="bold"
+                android:text="@string/cirigangguanatpg4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:paddingStart="4dp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/chapaza"
+                android:textColor="@color/bluemenu"
+                android:text="5. Gangguan dalam Sensoris atau Pengindraan"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+
+                android:layout_margin="5dp"
+                android:background="@color/bluemenu"
+
+                android:padding="10dp"
+                android:fontFamily="@font/newlin"
+                android:layout_marginTop="28dp"
+                android:textColor="@color/white"
+                android:elevation="6dp"
+                android:textStyle="bold"
+                android:text="@string/cirigangguanatpg5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="110dp"
+
+                    android:drawableLeft="@drawable/leftway"
+                    android:background="@color/pinkmenu"
+                    android:text="Sebelumnya"
+                    android:onClick="pindahat4back"
+                    android:paddingRight="2dp"
+                    android:textAllCaps="false"
+                    android:elevation="6dp"
+                    android:textColor="@color/white"
+                    android:layout_height="40dp"/>
+
+
+
+                <Button
+                    android:layout_width="90dp"
+                    android:background="@drawable/bg_start_button"
+                    android:text="Selesai"
+                    android:id="@+id/selesaiat4"
+                    android:onClick="selesaiat4"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textAllCaps="false"
+                    android:elevation="6dp"
+                    android:textColor="@color/white"
+                    android:layout_height="40dp"/>
+
+
+
+
+                <Button
+                    android:layout_width="110dp"
+                    android:drawableRight="@drawable/rightway"
+                    android:background="@color/pinkmenu"
+                    android:text="Selanjutnya"
+                    android:onClick="pindahat4"
+                    android:textAllCaps="false"
+                    android:elevation="6dp"
+                    android:textColor="@color/white"
+                    android:layout_height="40dp"/>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

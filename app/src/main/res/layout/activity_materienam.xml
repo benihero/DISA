@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    tools:context=".materi.tunanetra.materienam">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/gray4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="50dp"
+                android:textSize="20dp"
+                android:paddingStart="4dp"
+                android:layout_marginStart="4dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/chapaza"
+                android:textColor="@color/bluemenu"
+                android:text="Cara Mendampingi Tuna Netra"
+                android:layout_height="wrap_content"
+
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:textSize="17dp"
+                android:paddingStart="4dp"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/newlin"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="14/04/2020"
+                android:layout_height="wrap_content"
+
+                />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:paddingStart="4dp"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/chapaza"
+                android:textColor="@color/hijaumateri"
+                android:text="A. Duduk di kursi"
+                android:layout_height="wrap_content"
+
+                />
+
+            <VideoView
+                android:id="@+id/dudukkursi"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:padding="4dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/pembelajarantunet"
+                android:layout_height="200dp"
+                />
+
+            <TextView
+
+                android:layout_margin="5dp"
+                android:background="@color/hijaumateri"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/newlin"
+                android:layout_marginTop="28dp"
+                android:textColor="@color/white"
+                android:elevation="6dp"
+                android:textStyle="bold"
+                android:text="ketika madif ingin duduk pada sebuah kursi,pendamping mengarahkan madif pada kursi tersebut dan madif dengan sendirinya meraba kursi dan duduk pada tempat yang tepat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:paddingStart="4dp"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/chapaza"
+                android:textColor="@color/bluemenu"
+                android:text="B. Menaiki Tangga"
+                android:layout_height="wrap_content"
+
+                />
+
+            <VideoView
+                android:id="@+id/naiktangga"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:padding="4dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pembelajarantunet"
+                android:layout_height="200dp"
+                />
+
+            <TextView
+
+                android:layout_margin="5dp"
+                android:background="@color/bluemenu"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/newlin"
+                android:layout_marginTop="28dp"
+                android:textColor="@color/white"
+                android:elevation="6dp"
+                android:textStyle="bold"
+                android:text="kemudian untuk menaiki tangga,pendamping memegang madif dengan posisi berjalan,kemudian mengarahkan madif pada pinggir tangga agar bisa berpegangan pada pembatas tangga.dan kemudian secara pelan-pelan menuntun naik ketangga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:paddingStart="4dp"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/chapaza"
+                android:textColor="@color/hijaumateri"
+                android:text="C. Menuruni Tangga"
+                android:layout_height="wrap_content"
+
+                />
+
+            <VideoView
+                android:id="@+id/turuntangga"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:padding="4dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pembelajarantunet"
+                android:layout_height="200dp"
+                />
+
+            <TextView
+
+                android:layout_margin="5dp"
+                android:background="@color/hijaumateri"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/newlin"
+                android:layout_marginTop="28dp"
+                android:textColor="@color/white"
+                android:elevation="6dp"
+                android:textStyle="bold"
+                android:text="untuk menuruni tangga hampir sama dengan menaiki tangga,pendamping memegang madif dengan posisi berjalan,kemudian mengarahkan madif pada pinggir tangga agar bisa berpegangan pada pembatas tangga.dan kemudian secara pelan-pelan menuntun menuruni ketangga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:paddingStart="4dp"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/chapaza"
+                android:textColor="@color/bluemenu"
+                android:text="D. Membuka Pintu"
+                android:layout_height="wrap_content"
+
+                />
+
+            <VideoView
+                android:id="@+id/membukapintu"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:padding="4dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pembelajarantunet"
+                android:layout_height="200dp"
+                />
+
+            <TextView
+
+                android:layout_margin="5dp"
+                android:background="@color/bluemenu"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/newlin"
+                android:layout_marginTop="28dp"
+                android:textColor="@color/white"
+                android:elevation="6dp"
+                android:textStyle="bold"
+                android:text="Ketika ingin membuka pintu pendamping berada selangkah lebih depan terhadap madif,kemudian mendorong pintu hinga benar-benar terbuka kemudian tunggu madif untuk benar-benar memasuki ruangan lalu ditutup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            />
+
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_height="wrap_content">
+
+
+
+                <Button
+                    android:layout_width="110dp"
+                    android:drawableLeft="@drawable/leftway"
+                    android:background="@color/pinkmenu"
+                    android:onClick="pindah6back"
+                    android:text="Sebelumnya"
+                    android:paddingRight="2dp"
+                    android:textAllCaps="false"
+                    android:elevation="6dp"
+                    android:textColor="@color/white"
+                    android:layout_height="40dp"/>
+
+
+
+                <Button
+                    android:id="@+id/selesaitn6"
+                    android:layout_width="90dp"
+                    android:onClick="selesaitn6"
+                    android:background="@drawable/bg_start_button"
+                    android:text="Selesai"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textAllCaps="false"
+                    android:elevation="6dp"
+                    android:textColor="@color/white"
+                    android:layout_height="40dp"/>
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:onClick="selesai"
+                    android:background="@color/pinkmenu"
+                    android:elevation="6dp"
+                    android:paddingRight="2dp"
+                    android:text="Finish"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

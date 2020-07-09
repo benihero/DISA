@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    tools:context=".materi.tunanetra.materidua">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/gray4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="50dp"
+                android:textSize="20dp"
+                android:paddingStart="4dp"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/chapaza"
+                android:textColor="@color/hijaumateri"
+                android:textStyle="bold"
+                android:text="Kecerdasan Tuna Netra"
+                android:layout_height="wrap_content"
+
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:textSize="17dp"
+                android:paddingStart="4dp"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/newlin"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="14/04/2020"
+                android:layout_height="wrap_content"
+
+                />
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_width="400dp"
+                android:padding="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kecerdasantunet"
+                android:layout_height="200dp"
+                />
+
+            <TextView
+
+                android:layout_margin="5dp"
+                android:background="@color/hijaumateri"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/newlin"
+                android:layout_marginTop="28dp"
+                android:textColor="@color/white"
+                android:elevation="6dp"
+                android:textStyle="bold"
+                android:text="@string/tunetp21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+                />
+
+
+            <TextView
+                android:layout_margin="5dp"
+                android:background="@color/bluemenu"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/newlin"
+                android:layout_marginTop="28dp"
+                android:textColor="@color/white"
+                android:elevation="6dp"
+                android:textStyle="bold"
+                android:text="@string/tunetp22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="110dp"
+                    android:onClick="pindah2back"
+                    android:drawableLeft="@drawable/leftway"
+                    android:background="@color/pinkmenu"
+                    android:text="Sebelumnya"
+                    android:paddingRight="2dp"
+                    android:textAllCaps="false"
+                    android:elevation="6dp"
+                    android:textColor="@color/white"
+                    android:layout_height="40dp"/>
+
+
+
+                <Button
+
+                    android:id="@+id/selesaitn2"
+                    android:layout_width="90dp"
+                    android:background="@drawable/bg_start_button"
+                    android:text="Selesai"
+                    android:onClick="selesaitn2"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textAllCaps="false"
+                    android:elevation="6dp"
+                    android:textColor="@color/white"
+                    android:layout_height="40dp"/>
+
+
+
+
+                <Button
+                    android:layout_width="110dp"
+                    android:onClick="pindah2"
+                    android:drawableRight="@drawable/rightway"
+                    android:background="@color/pinkmenu"
+                    android:text="Selanjutnya"
+                    android:textAllCaps="false"
+                    android:elevation="6dp"
+                    android:textColor="@color/white"
+                    android:layout_height="40dp"/>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

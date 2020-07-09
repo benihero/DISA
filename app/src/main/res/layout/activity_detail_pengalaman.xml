@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/GrayPrimary"
+    tools:context=".pengalaman.DetailPengalaman">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/bg_viewlogin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="370dp"
+            android:layout_height="120dp"
+            android:background="@drawable/bg_login_primary"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_login_primary"
+                    android:fontFamily="@font/newlin"
+                    android:text="ditulis oleh :"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/namapenulis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/bg_login_primary"
+                    android:fontFamily="@font/newlin"
+                    android:text=""
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/GrayPrimary" />
+
+
+            <TextView
+                android:id="@+id/judultulisan"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray3"
+                android:gravity="center"
+                android:text="Pergi ke Makassar"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout6"
+            android:layout_width="370dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_login_primary"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <TextView
+                android:id="@+id/isitulisan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/newlin"
+                android:padding="5dp"
+                android:text="judul"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/reykomen"
+            android:layout_marginTop="20dp"
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:background="@color/gray3"
+            android:elevation="6dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+
+                android:id="@+id/popupkomen"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                android:background="@drawable/komentar"
+
+                 />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

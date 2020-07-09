@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bluePrimary"
+    tools:context=".Registerpage2">
+
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logopsld2"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:fontFamily="@font/newlin"
+        android:lineSpacingExtra="3dp"
+        android:text="let's join us to further develop \ndisability awareness"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.358"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_circle_picture"
+        app:layout_constraintBottom_toTopOf="@+id/fullname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_pict2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon_nopic"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <Button
+
+        android:id="@+id/add_profil"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/addprofil"
+        app:layout_constraintBottom_toTopOf="@+id/fullname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="284dp"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_login_primary"
+        android:drawableLeft="@drawable/full_name"
+        android:fontFamily="monospace"
+        android:hint="Fullname"
+        android:paddingStart="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/GrayPrimary2"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/nim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.932" />
+
+    <EditText
+        android:id="@+id/nim"
+        android:layout_width="284dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="216dp"
+        android:background="@drawable/bg_login_primary"
+        android:drawableLeft="@drawable/nim"
+        android:fontFamily="monospace"
+        android:hint="NIM"
+        android:paddingStart="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/GrayPrimary2"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/faculty"
+        android:layout_width="284dp"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_login_primary"
+        android:drawableLeft="@drawable/faculty"
+        android:fontFamily="monospace"
+        android:hint="Faculty"
+        android:paddingStart="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/GrayPrimary2"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/register_button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nim"
+        app:layout_constraintVertical_bias="0.215" />
+
+    <Button
+        android:id="@+id/register_button2"
+        android:layout_width="274dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/bg_primary_button"
+        android:fontFamily="@font/consola"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@color/bluePrimary"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

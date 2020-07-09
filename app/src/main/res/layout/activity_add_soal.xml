@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/GrayPrimary"
+    android:layout_height="match_parent"
+    tools:context=".soal.add_soal">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/bg_viewlogin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="320dp"
+        android:layout_height="370dp"
+        android:background="@drawable/bg_primary_button"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313">
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:text="Soal"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/soall"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColorHint="@color/GrayPrimary2"
+                android:paddingStart="10dp"
+                android:hint="Tulis soal disini"
+                android:background="@drawable/bg_profile_card"
+                android:textColor="@color/colorPrimaryDark" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:text="A"
+                android:layout_marginRight="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/jawabanA"
+                android:layout_width="match_parent"
+                android:textColorHint="@color/GrayPrimary2"
+                android:paddingStart="10dp"
+                android:hint="Opsi A"
+                android:layout_height="30dp"
+                android:background="@drawable/bg_profile_card"
+                android:textColor="@color/colorPrimaryDark" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:text="B"
+                android:layout_marginRight="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/jawabanB"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColorHint="@color/GrayPrimary2"
+                android:paddingStart="10dp"
+                android:hint="Opsi B"
+                android:background="@drawable/bg_profile_card"
+                android:textColor="@color/colorPrimaryDark" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:text="C"
+                android:layout_marginRight="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/jawabanC"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColorHint="@color/GrayPrimary2"
+                android:paddingStart="10dp"
+                android:hint="Opsi C"
+                android:background="@drawable/bg_profile_card"
+                android:textColor="@color/colorPrimaryDark" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:text="D"
+                android:layout_marginRight="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/jawabanD"
+                android:layout_width="match_parent"
+                android:textColorHint="@color/GrayPrimary2"
+                android:paddingStart="10dp"
+                android:hint="Opsi D"
+                android:layout_height="30dp"
+                android:background="@drawable/bg_profile_card"
+                android:textColor="@color/colorPrimaryDark" />
+
+
+
+        </LinearLayout>
+
+
+        <EditText
+            android:layout_marginTop="40dp"
+            android:id="@+id/jawaban"
+            android:layout_width="240dp"
+            android:textColorHint="@color/GrayPrimary2"
+            android:paddingStart="10dp"
+            android:hint="jawaban"
+            android:layout_height="30dp"
+            android:background="@drawable/bg_profile_card"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Spinner
+            android:id="@+id/spinkategori"
+            android:layout_marginTop="10dp"
+            android:layout_width="230dp"
+            android:entries="@array/kategorisoal"
+            android:background="@color/GrayPrimary2"
+            android:layout_marginBottom="10dp"
+            android:layout_height="30dp"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+
+        <Button
+            android:id="@+id/soal_back"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bg_back_button"
+            android:elevation="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/save_soal"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_start_button"
+            android:elevation="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Save" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

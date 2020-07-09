@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/GrayPrimary"
+    tools:context=".materi.ListMateri">
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+
+        android:background="@drawable/bg_viewlogin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/papper"
+        android:layout_width="50dp"
+        android:onClick="MateriTambah"
+        android:layout_height="50dp"
+        android:background="@drawable/paapper"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="350dp"
+        android:layout_height="470dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/bg_login_primary"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:padding="8dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+
+                android:background="@drawable/bg_list_materi"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:elevation="6dp"
+                android:orientation="horizontal"
+
+                >
+
+                <View
+                    android:elevation="4dp"
+                    android:layout_width="10dp"
+                    android:background="@drawable/bg_list_materi"
+                    android:layout_height="match_parent"/>
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:padding="3dp"
+                    android:src="@drawable/daksa"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_height="65dp"
+                    android:background="@drawable/bg_menu_biru"
+
+                    />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:onClick="MateriDaksa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="Tuna Daksa"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:textSize="15dp"
+                        android:layout_marginStart="8dp"/>
+
+                    <View
+                         android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@color/GrayPrimary2"
+                        android:layout_height="2dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="(materi pendampingan tuna daksa)"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="14dp"
+                        android:layout_marginStart="8dp"/>
+
+                    <ProgressBar
+                        android:id="@+id/progresdaksa"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_marginTop="4dp"
+                        android:max="6"
+                        android:layout_width="220dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="5dp"/>
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:background="@drawable/bg_list_materi"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="90dp"
+                android:elevation="6dp"
+                android:orientation="horizontal"
+
+                >
+
+                <View
+                    android:elevation="4dp"
+                    android:layout_width="10dp"
+                    android:background="@drawable/bg_list_materi"
+                    android:layout_height="match_parent"/>
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:padding="3dp"
+                    android:src="@drawable/tuli"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_height="65dp"
+                    android:background="@drawable/bg_menu_hijau"
+
+                    />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:onClick="MateriTuli"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="Tuna Rungu"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:textSize="15dp"
+                        android:layout_marginStart="8dp"/>
+
+                    <View
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@color/GrayPrimary2"
+                        android:layout_height="2dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="(materi pendampingan tuna rungu)"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="14dp"
+                        android:layout_marginStart="8dp"/>
+                    <ProgressBar
+                        android:id="@+id/progrestuli"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_marginTop="4dp"
+                        android:max="6"
+                        android:layout_width="220dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="5dp"/>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:background="@drawable/bg_list_materi"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="10dp"
+                android:elevation="6dp"
+                android:orientation="horizontal"
+
+                >
+
+                <View
+                    android:elevation="4dp"
+                    android:layout_width="10dp"
+                    android:background="@drawable/bg_list_materi"
+                    android:layout_height="match_parent"/>
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:padding="3dp"
+                    android:src="@drawable/autisme"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_height="65dp"
+                    android:background="@drawable/bg_menu_kuning"
+
+                    />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:onClick="MateriAutis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="Autis"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:textSize="15dp"
+                        android:layout_marginStart="8dp"/>
+
+                    <View
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@color/GrayPrimary2"
+                        android:layout_height="2dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="(materi pendampingan Autis)"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="14dp"
+                        android:layout_marginStart="8dp"/>
+
+                    <ProgressBar
+                        android:id="@+id/progresautis"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_marginTop="4dp"
+                        android:max="6"
+                        android:layout_width="220dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="5dp"/>
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:background="@drawable/bg_list_materi"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="10dp"
+                android:elevation="6dp"
+                android:orientation="horizontal"
+
+                >
+
+                <View
+                    android:elevation="4dp"
+                    android:layout_width="10dp"
+                    android:background="@drawable/bg_list_materi"
+                    android:layout_height="match_parent"/>
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:padding="3dp"
+                    android:src="@drawable/netra"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_height="65dp"
+                    android:background="@drawable/bg_menu_pink"
+
+                    />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:onClick="MateriTUnet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="Tuna Netra"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:textSize="15dp"
+                        android:layout_marginStart="8dp"/>
+
+                    <View
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@color/GrayPrimary2"
+                        android:layout_height="2dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="(materi pendampingan tuna netra)"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="14dp"
+                        android:layout_marginStart="8dp"/>
+
+                    <ProgressBar
+                        android:id="@+id/progresnetra"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_marginTop="4dp"
+                        android:max="6"
+                        android:layout_width="220dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="5dp"/>
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Materi"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toStartOf="@+id/view3"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.815" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_menu_biru"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/buku"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
+
+
+
+
+    <Button
+
+        android:id="@+id/back"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:onClick="Onbek"
+        android:background="@drawable/bg_login_primary"
+        android:drawableStart="@drawable/back"
+        android:elevation="6dp"
+        android:paddingStart="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.449" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

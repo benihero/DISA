@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="5dp"
+    tools:context=".materi.tunadaksa.materitnenam">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray4"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/chapaza"
+                android:paddingStart="4dp"
+                android:text="Cara Mendampingi Dengan Kursi Roda"
+                android:textColor="@color/hijaumateri"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/newlin"
+                android:paddingStart="4dp"
+                android:text="17/04/2020"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp"
+
+                />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/chapaza"
+                android:paddingStart="4dp"
+                android:text="A. Pengenalan Kursi Roda"
+                android:textColor="@color/hijaumateri"
+                android:textSize="17dp"
+                android:textStyle="bold"
+
+                />
+
+            <VideoView
+                android:id="@+id/pengenalankursiroda"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="4dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/pembelajarantunet" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="28dp"
+                android:background="@color/hijaumateri"
+                android:elevation="6dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="video diatas menjelaskan bagian-bagian pada kursi roda.kemudian menjelaskan tentang tatacara menggunakan kursi roda "
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/chapaza"
+                android:paddingStart="4dp"
+                android:text="B. Cara menaiki bidang yang lebih tinggi"
+                android:textColor="@color/bluemenu"
+                android:textSize="17dp"
+                android:textStyle="bold"
+
+                />
+
+            <VideoView
+                android:id="@+id/prakteknaik"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pembelajarantunet" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="28dp"
+                android:background="@color/bluemenu"
+                android:elevation="6dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="pada video tersebut dijelaskan tentang bagaimana cara untuk menaiki bidang yang lebih tinggi ketika sedang mendampingi seseorang.pertama kita arahkan kursi roda sedekat mungkin dengan bidang.kemudian injak bagian tuas belakang sehingga
+bagian depan terangkat dan kemudian dorong perlahan hingga roda belakang melewati bidang. dan turunkan roda depan secara perlahan"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/chapaza"
+                android:paddingStart="4dp"
+                android:text="C. Cara turun belakang"
+                android:textColor="@color/hijaumateri"
+                android:textSize="17dp"
+                android:textStyle="bold"
+
+                />
+
+            <VideoView
+                android:id="@+id/caraturunbelakang"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pembelajarantunet" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="28dp"
+                android:background="@color/hijaumateri"
+                android:elevation="6dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="ketika kita ingin menurunkan kursi roda dari sebuah bidang dari belakang,caranya yaitu dengan terlebih dahulu pendamping berada pada bidang bawah atau bidang miring dan mundur secara perlahan dengan menginjak tuas belakang agar roda depan sedikit terangkat"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/chapaza"
+                android:paddingStart="4dp"
+                android:text="D. Cara turun depan"
+                android:textColor="@color/bluemenu"
+                android:textSize="17dp"
+                android:textStyle="bold"
+
+                />
+
+            <VideoView
+                android:id="@+id/turundepan"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pembelajarantunet" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="28dp"
+                android:background="@color/bluemenu"
+                android:elevation="6dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="untuk turun kedepan caranya hampir sama dengan naik,yakni kursi roda diarahkan sedekat mungkin dengan ujung bidang.kemudian injak tuas belakang sehingga roda depan terangkat,kemudian dorong perlahan hingga turun secara perlahan dan turunkan roda depan"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:background="@color/pinkmenu"
+                    android:drawableLeft="@drawable/leftway"
+                    android:elevation="6dp"
+                    android:onClick="pindahtd6back"
+                    android:paddingRight="2dp"
+                    android:text="Sebelumnya"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/selesaitd6"
+                    android:onClick="selesaitd6"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/bg_start_button"
+                    android:elevation="6dp"
+                    android:text="Selesai"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:onClick="selesai6"
+                    android:background="@color/pinkmenu"
+
+                    android:elevation="6dp"
+                    android:paddingRight="2dp"
+                    android:text="Finish"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

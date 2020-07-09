@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00110E</color>
+    <color name="gray3">#F6F6F6</color>
+    <color name="gray4">#FDFDFD</color>
+    <color name="bluePrimary">#17129E</color>
+    <color name="GrayPrimary">#E3E2FB</color>
+    <color name="GrayPrimary2">#ABAABE</color>
+    <color name="bluemenu">#55DBEB</color>
+    <color name="hijaumenu">#55EB91</color>
+    <color name="hijaumateri">#2BF17B</color>
+    <color name="kuningmenu">#EBCD55</color>
+    <color name="pinkmenu">#EB5564</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#DD3232</color>
+    <color name="blue2">#81D4FA</color>
+    <color name="blue3">#B3E5FC</color>
+
+
+
+
+</resources>

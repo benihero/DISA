@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "467429152667",
+    "firebase_url": "https://disa-6a255.firebaseio.com",
+    "project_id": "disa-6a255",
+    "storage_bucket": "disa-6a255.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467429152667:android:e4d9206b7f45b3ec1a333e",
+        "android_client_info": {
+          "package_name": "com.example.disa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467429152667-j84kch2t7huvma1hrmcgjbhil0s4uc68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.disa",
+            "certificate_hash": "df8e7504b0874cd64c502d248753b3a1cc59fe17"
+          }
+        },
+        {
+          "client_id": "467429152667-2uqsvgdlljtv4f6f4srcf2bnftajde17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYN3OR8hDyXZj8pErZNjobfrNttMdah6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467429152667-2uqsvgdlljtv4f6f4srcf2bnftajde17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

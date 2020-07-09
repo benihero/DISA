@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <LinearLayout
+
+        android:id="@+id/cardkomentar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/bg_list_pengalaman"
+        android:orientation="vertical">
+
+
+
+        <TextView
+
+            android:id="@+id/penuliskomentar"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            android:layout_marginStart="4dp"
+            android:fontFamily="@font/newlin"
+            android:text="Judul"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="10dp"
+
+            />
+
+
+        <TextView
+
+            android:id="@+id/isikomentar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingRight="7dp"
+            android:layout_marginStart="4dp"
+            android:text="hallo namaku beni"
+            android:padding="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp"
+
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

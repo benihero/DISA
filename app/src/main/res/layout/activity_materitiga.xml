@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    tools:context=".materi.tunanetra.materitiga">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray4"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/chapaza"
+                android:paddingStart="4dp"
+                android:text="Karakteristik Tuna Netra"
+                android:textColor="@color/bluemenu"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/newlin"
+                android:paddingStart="4dp"
+                android:text="14/04/2020"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp"
+
+                />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:padding="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/karakteristiktunet" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="28dp"
+                android:background="@color/bluemenu"
+                android:elevation="6dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/kbuka"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/chapaza"
+                android:paddingStart="4dp"
+                android:text="A. Kognitif"
+                android:textColor="@color/hijaumateri"
+                android:textSize="17dp"
+                android:textStyle="bold"
+
+                />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="28dp"
+                android:background="@color/hijaumateri"
+                android:elevation="6dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/kognitifbuka"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/chapaza"
+                android:paddingStart="4dp"
+                android:text="1). Tingkat dan Keanekaragaman Pengalaman"
+                android:textColor="@color/bluemenu"
+                android:textSize="15dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="28dp"
+                android:background="@color/bluemenu"
+                android:elevation="6dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/kognitifa"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/chapaza"
+                android:paddingStart="4dp"
+                android:text="2). Kemampuan untuk Berpindah Tempat"
+                android:textColor="@color/hijaumateri"
+                android:textSize="15dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="28dp"
+                android:background="@color/hijaumateri"
+                android:elevation="6dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/kognitifb"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/chapaza"
+                android:paddingStart="4dp"
+                android:text="3). Interaksi dengan Linngkungan"
+                android:textColor="@color/bluemenu"
+                android:textSize="15dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="28dp"
+                android:background="@color/bluemenu"
+                android:elevation="6dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/kognitifc"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/chapaza"
+                android:paddingStart="4dp"
+                android:text="B. Akademik"
+                android:textColor="@color/hijaumateri"
+                android:textSize="17dp"
+                android:textStyle="bold"
+
+                />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="28dp"
+                android:background="@color/hijaumateri"
+                android:elevation="6dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/akademik"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/chapaza"
+                android:paddingStart="4dp"
+                android:text="C. Fisik"
+                android:textColor="@color/bluemenu"
+                android:textSize="17dp"
+                android:textStyle="bold"
+
+                />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="28dp"
+                android:background="@color/bluemenu"
+                android:elevation="6dp"
+                android:fontFamily="@font/newlin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/fisik"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="110dp"
+                    android:drawableLeft="@drawable/leftway"
+                    android:background="@color/pinkmenu"
+                    android:text="Sebelumnya"
+                    android:onClick="pindah3back"
+                    android:textAllCaps="false"
+                    android:elevation="6dp"
+                    android:textColor="@color/white"
+                    android:layout_height="40dp"/>
+
+
+
+                <Button
+                    android:id="@+id/selesaitn3"
+                    android:layout_width="90dp"
+                    android:background="@drawable/bg_start_button"
+                    android:text="Selesai"
+                    android:onClick="selesaitn3"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textAllCaps="false"
+                    android:elevation="6dp"
+                    android:textColor="@color/white"
+                    android:layout_height="40dp"/>
+
+
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:drawableRight="@drawable/rightway"
+                    android:background="@color/pinkmenu"
+                    android:elevation="6dp"
+                    android:onClick="pindah3"
+                    android:text="Selanjutnya"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

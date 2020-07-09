@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".materi.tuli.materitlenam">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/gray4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="50dp"
+                android:textSize="20dp"
+                android:paddingStart="4dp"
+                android:layout_marginStart="4dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/chapaza"
+                android:textColor="@color/bluemenu"
+                android:text="Pengenalan bahasa isyarat"
+                android:layout_height="wrap_content"
+
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:textSize="17dp"
+                android:paddingStart="4dp"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/newlin"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="19/04/2020"
+                android:layout_height="wrap_content"
+
+                />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:paddingStart="4dp"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/chapaza"
+                android:textColor="@color/pinkmenu"
+                android:text="pengenalan bahasa isyarat alphabet"
+                android:layout_height="wrap_content"
+
+                />
+
+            <VideoView
+                android:id="@+id/isyaratalphabet"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:padding="4dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/pembelajarantunet"
+                android:layout_height="200dp"
+                />
+
+            <TextView
+
+                android:layout_margin="5dp"
+                android:background="@color/pinkmenu"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/newlin"
+                android:layout_marginTop="28dp"
+                android:textColor="@color/white"
+                android:elevation="6dp"
+                android:textStyle="bold"
+                android:text="video diatas menjelaskan tentang bagaimana mendampingi mahasiswa difabel autis pada saat perkuliahan.dimana akan dijelaskan perbagian cara mendampingi mahasiswa autis dan menjelaskan mana yang salah dan mana yan benar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:paddingStart="4dp"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/chapaza"
+                android:textColor="@color/bluemenu"
+                android:text="pengenalan bahasa isyarat Sehari-hari"
+                android:layout_height="wrap_content"
+
+                />
+
+            <VideoView
+                android:id="@+id/isyaratseharihari"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:padding="4dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/pembelajarantunet"
+                android:layout_height="200dp"
+                />
+
+            <TextView
+
+                android:layout_margin="5dp"
+                android:background="@color/bluemenu"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/newlin"
+                android:layout_marginTop="28dp"
+                android:textColor="@color/white"
+                android:elevation="6dp"
+                android:textStyle="bold"
+                android:text="video diatas menjelaskan tentang bagaimana mendampingi mahasiswa difabel autis pada saat perkuliahan.dimana akan dijelaskan perbagian cara mendampingi mahasiswa autis dan menjelaskan mana yang salah dan mana yan benar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_height="wrap_content">
+
+
+
+                <Button
+                    android:layout_width="110dp"
+                    android:drawableLeft="@drawable/leftway"
+                    android:background="@color/pinkmenu"
+                    android:text="Sebelumnya"
+                    android:onClick="pindahtl6back"
+                    android:paddingRight="2dp"
+                    android:textAllCaps="false"
+                    android:elevation="6dp"
+                    android:textColor="@color/white"
+                    android:layout_height="40dp"/>
+
+
+
+                <Button
+                    android:layout_width="90dp"
+                    android:background="@drawable/bg_start_button"
+                    android:text="Selesai"
+                    android:id="@+id/selesaitl6"
+                    android:onClick="selesaitl6"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textAllCaps="false"
+                    android:elevation="6dp"
+                    android:textColor="@color/white"
+                    android:layout_height="40dp"/>
+
+                <Button
+                    android:layout_width="110dp"
+                    android:onClick="pindahtl6"
+                    android:background="@color/pinkmenu"
+                    android:text="finish"
+                    android:paddingRight="2dp"
+                    android:textAllCaps="false"
+                    android:elevation="6dp"
+                    android:textColor="@color/white"
+                    android:layout_height="40dp"/>
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
